@@ -7,39 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B057585298E52C000A56C9A /* XCAChatGPTMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B057584298E52C000A56C9A /* XCAChatGPTMacApp.swift */; };
-		8B057589298E52C000A56C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B057588298E52C000A56C9A /* Assets.xcassets */; };
-		8B05758C298E52C000A56C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B05758B298E52C000A56C9A /* Preview Assets.xcassets */; };
-		8B057592298E52D900A56C9A /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C017298ADF4E0079AF26 /* DotLoadingView.swift */; };
-		8B057593298E52D900A56C9A /* AzureOpenAIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C011298AD0CE0079AF26 /* AzureOpenAIAPI.swift */; };
-		8B057594298E52D900A56C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C005298AD09E0079AF26 /* ContentView.swift */; };
-		8B057595298E52D900A56C9A /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C019298ADF7F0079AF26 /* MessageRowView.swift */; };
-		8B057596298E52DD00A56C9A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C013298ADC560079AF26 /* ViewModel.swift */; };
-		8B057597298E52DD00A56C9A /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C015298ADC9D0079AF26 /* MessageRow.swift */; };
-		8B0575F1298FA9D800A56C9A /* XCAChatGPTWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8B0575F0298FA9D800A56C9A /* XCAChatGPTWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8B0575F6298FA9D800A56C9A /* XCAChatGPTWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0575F5298FA9D800A56C9A /* XCAChatGPTWatchApp.swift */; };
-		8B0575FA298FA9DA00A56C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0575F9298FA9DA00A56C9A /* Assets.xcassets */; };
-		8B0575FD298FA9DA00A56C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0575FC298FA9DA00A56C9A /* Preview Assets.xcassets */; };
-		8B057605298FA9E900A56C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C005298AD09E0079AF26 /* ContentView.swift */; };
-		8B057606298FA9E900A56C9A /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C019298ADF7F0079AF26 /* MessageRowView.swift */; };
-		8B057607298FA9E900A56C9A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C013298ADC560079AF26 /* ViewModel.swift */; };
-		8B057608298FA9E900A56C9A /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C017298ADF4E0079AF26 /* DotLoadingView.swift */; };
-		8B057609298FA9E900A56C9A /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C015298ADC9D0079AF26 /* MessageRow.swift */; };
-		8B05760A298FA9E900A56C9A /* AzureOpenAIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C011298AD0CE0079AF26 /* AzureOpenAIAPI.swift */; };
-		8B057614298FBDB600A56C9A /* XCAChatGPTTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B057613298FBDB600A56C9A /* XCAChatGPTTVApp.swift */; };
-		8B057618298FBDB700A56C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B057617298FBDB700A56C9A /* Assets.xcassets */; };
-		8B05761B298FBDB700A56C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B05761A298FBDB700A56C9A /* Preview Assets.xcassets */; };
-		8B05761F298FBE0400A56C9A /* AzureOpenAIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C011298AD0CE0079AF26 /* AzureOpenAIAPI.swift */; };
-		8B057620298FBE0400A56C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C005298AD09E0079AF26 /* ContentView.swift */; };
-		8B057621298FBE0400A56C9A /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C015298ADC9D0079AF26 /* MessageRow.swift */; };
-		8B057622298FBE0400A56C9A /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C019298ADF7F0079AF26 /* MessageRowView.swift */; };
-		8B057623298FBE0400A56C9A /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C017298ADF4E0079AF26 /* DotLoadingView.swift */; };
-		8B057624298FBE0400A56C9A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C013298ADC560079AF26 /* ViewModel.swift */; };
-		8B05764829909A9200A56C9A /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B05764729909A9200A56C9A /* ScrollView.swift */; };
+		166327E329DDC07700E85795 /* AzureOpenAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166327E229DDC07700E85795 /* AzureOpenAIApp.swift */; };
+		166327E729DDC07800E85795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166327E629DDC07800E85795 /* Assets.xcassets */; };
+		166327EA29DDC07800E85795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166327E929DDC07800E85795 /* Preview Assets.xcassets */; };
+		166327EF29DDC09700E85795 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C017298ADF4E0079AF26 /* DotLoadingView.swift */; };
+		166327F029DDC09700E85795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C005298AD09E0079AF26 /* ContentView.swift */; };
+		166327F129DDC09700E85795 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82463329B1F49F0069B8F7 /* ChatGPTAPIModels.swift */; };
+		166327F229DDC09700E85795 /* AzureOpenAIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C011298AD0CE0079AF26 /* AzureOpenAIAPI.swift */; };
+		166327F329DDC09700E85795 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C019298ADF7F0079AF26 /* MessageRowView.swift */; };
+		166327F429DDC09700E85795 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C013298ADC560079AF26 /* ViewModel.swift */; };
+		166327F529DDC09700E85795 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C015298ADC9D0079AF26 /* MessageRow.swift */; };
 		8B82463429B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82463329B1F49F0069B8F7 /* ChatGPTAPIModels.swift */; };
-		8B82463529B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82463329B1F49F0069B8F7 /* ChatGPTAPIModels.swift */; };
-		8B82463629B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82463329B1F49F0069B8F7 /* ChatGPTAPIModels.swift */; };
-		8B82463729B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82463329B1F49F0069B8F7 /* ChatGPTAPIModels.swift */; };
 		8B91C004298AD09E0079AF26 /* XCAChatGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C003298AD09E0079AF26 /* XCAChatGPTApp.swift */; };
 		8B91C006298AD09E0079AF26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C005298AD09E0079AF26 /* ContentView.swift */; };
 		8B91C008298AD09F0079AF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B91C007298AD09F0079AF26 /* Assets.xcassets */; };
@@ -51,46 +29,12 @@
 		8B91C01A298ADF7F0079AF26 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91C019298ADF7F0079AF26 /* MessageRowView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8B0575F2298FA9D800A56C9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B91BFF8298AD09E0079AF26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B0575EF298FA9D800A56C9A;
-			remoteInfo = "XCAChatGPTWatch Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8B057600298FA9DA00A56C9A /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				8B0575F1298FA9D800A56C9A /* XCAChatGPTWatch Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		8B057582298E52C000A56C9A /* XCAChatGPTMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAChatGPTMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B057584298E52C000A56C9A /* XCAChatGPTMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTMacApp.swift; sourceTree = "<group>"; };
-		8B057588298E52C000A56C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B05758B298E52C000A56C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8B05758D298E52C000A56C9A /* XCAChatGPTMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCAChatGPTMac.entitlements; sourceTree = "<group>"; };
-		8B0575EB298FA9D800A56C9A /* XCAChatGPTWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAChatGPTWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B0575F0298FA9D800A56C9A /* XCAChatGPTWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCAChatGPTWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B0575F5298FA9D800A56C9A /* XCAChatGPTWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTWatchApp.swift; sourceTree = "<group>"; };
-		8B0575F9298FA9DA00A56C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B0575FC298FA9DA00A56C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8B057611298FBDB600A56C9A /* XCAChatGPTTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAChatGPTTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B057613298FBDB600A56C9A /* XCAChatGPTTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTTVApp.swift; sourceTree = "<group>"; };
-		8B057617298FBDB700A56C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B05761A298FBDB700A56C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8B05764729909A9200A56C9A /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		166327E029DDC07700E85795 /* AzureOpenAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureOpenAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166327E229DDC07700E85795 /* AzureOpenAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureOpenAIApp.swift; sourceTree = "<group>"; };
+		166327E629DDC07800E85795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166327E929DDC07800E85795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		166327EB29DDC07800E85795 /* AzureOpenAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzureOpenAI.entitlements; sourceTree = "<group>"; };
 		8B82463329B1F49F0069B8F7 /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPIModels.swift; sourceTree = "<group>"; };
 		8B91C000298AD09E0079AF26 /* XCAChatGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAChatGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91C003298AD09E0079AF26 /* XCAChatGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTApp.swift; sourceTree = "<group>"; };
@@ -105,21 +49,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B05757F298E52C000A56C9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B0575ED298FA9D800A56C9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B05760E298FBDB600A56C9A /* Frameworks */ = {
+		166327DD29DDC07700E85795 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,21 +66,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B057583298E52C000A56C9A /* XCAChatGPTMac */ = {
+		166327E129DDC07700E85795 /* AzureOpenAI */ = {
 			isa = PBXGroup;
 			children = (
-				8B057584298E52C000A56C9A /* XCAChatGPTMacApp.swift */,
-				8B057588298E52C000A56C9A /* Assets.xcassets */,
-				8B05758D298E52C000A56C9A /* XCAChatGPTMac.entitlements */,
-				8B05758A298E52C000A56C9A /* Preview Content */,
+				166327E229DDC07700E85795 /* AzureOpenAIApp.swift */,
+				166327E629DDC07800E85795 /* Assets.xcassets */,
+				166327EB29DDC07800E85795 /* AzureOpenAI.entitlements */,
+				166327E829DDC07800E85795 /* Preview Content */,
 			);
-			path = XCAChatGPTMac;
+			path = AzureOpenAI;
 			sourceTree = "<group>";
 		};
-		8B05758A298E52C000A56C9A /* Preview Content */ = {
+		166327E829DDC07800E85795 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8B05758B298E52C000A56C9A /* Preview Assets.xcassets */,
+				166327E929DDC07800E85795 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -169,51 +99,12 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		8B0575F4298FA9D800A56C9A /* XCAChatGPTWatch Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				8B0575F5298FA9D800A56C9A /* XCAChatGPTWatchApp.swift */,
-				8B0575F9298FA9DA00A56C9A /* Assets.xcassets */,
-				8B0575FB298FA9DA00A56C9A /* Preview Content */,
-			);
-			path = "XCAChatGPTWatch Watch App";
-			sourceTree = "<group>";
-		};
-		8B0575FB298FA9DA00A56C9A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8B0575FC298FA9DA00A56C9A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8B057612298FBDB600A56C9A /* XCAChatGPTTV */ = {
-			isa = PBXGroup;
-			children = (
-				8B057613298FBDB600A56C9A /* XCAChatGPTTVApp.swift */,
-				8B057617298FBDB700A56C9A /* Assets.xcassets */,
-				8B057619298FBDB700A56C9A /* Preview Content */,
-				8B05764729909A9200A56C9A /* ScrollView.swift */,
-			);
-			path = XCAChatGPTTV;
-			sourceTree = "<group>";
-		};
-		8B057619298FBDB700A56C9A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8B05761A298FBDB700A56C9A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		8B91BFF7298AD09E0079AF26 = {
 			isa = PBXGroup;
 			children = (
 				8B057591298E52CB00A56C9A /* Shared */,
 				8B91C002298AD09E0079AF26 /* XCAChatGPT */,
-				8B057583298E52C000A56C9A /* XCAChatGPTMac */,
-				8B0575F4298FA9D800A56C9A /* XCAChatGPTWatch Watch App */,
-				8B057612298FBDB600A56C9A /* XCAChatGPTTV */,
+				166327E129DDC07700E85795 /* AzureOpenAI */,
 				8B91C001298AD09E0079AF26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -222,10 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				8B91C000298AD09E0079AF26 /* XCAChatGPT.app */,
-				8B057582298E52C000A56C9A /* XCAChatGPTMac.app */,
-				8B0575EB298FA9D800A56C9A /* XCAChatGPTWatch.app */,
-				8B0575F0298FA9D800A56C9A /* XCAChatGPTWatch Watch App.app */,
-				8B057611298FBDB600A56C9A /* XCAChatGPTTV.app */,
+				166327E029DDC07700E85795 /* AzureOpenAI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,72 +139,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B057581298E52C000A56C9A /* XCAChatGPTMac */ = {
+		166327DF29DDC07700E85795 /* AzureOpenAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B057590298E52C000A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTMac" */;
+			buildConfigurationList = 166327EC29DDC07800E85795 /* Build configuration list for PBXNativeTarget "AzureOpenAI" */;
 			buildPhases = (
-				8B05757E298E52C000A56C9A /* Sources */,
-				8B05757F298E52C000A56C9A /* Frameworks */,
-				8B057580298E52C000A56C9A /* Resources */,
+				166327DC29DDC07700E85795 /* Sources */,
+				166327DD29DDC07700E85795 /* Frameworks */,
+				166327DE29DDC07700E85795 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XCAChatGPTMac;
-			productName = XCAChatGPTMac;
-			productReference = 8B057582298E52C000A56C9A /* XCAChatGPTMac.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8B0575EA298FA9D800A56C9A /* XCAChatGPTWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B057604298FA9DA00A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTWatch" */;
-			buildPhases = (
-				8B0575E9298FA9D800A56C9A /* Resources */,
-				8B057600298FA9DA00A56C9A /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B0575F3298FA9D800A56C9A /* PBXTargetDependency */,
-			);
-			name = XCAChatGPTWatch;
-			productName = XCAChatGPTWatch;
-			productReference = 8B0575EB298FA9D800A56C9A /* XCAChatGPTWatch.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		8B0575EF298FA9D800A56C9A /* XCAChatGPTWatch Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B057603298FA9DA00A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTWatch Watch App" */;
-			buildPhases = (
-				8B0575EC298FA9D800A56C9A /* Sources */,
-				8B0575ED298FA9D800A56C9A /* Frameworks */,
-				8B0575EE298FA9D800A56C9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "XCAChatGPTWatch Watch App";
-			productName = "XCAChatGPTWatch Watch App";
-			productReference = 8B0575F0298FA9D800A56C9A /* XCAChatGPTWatch Watch App.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8B057610298FBDB600A56C9A /* XCAChatGPTTV */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B05761C298FBDB700A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTTV" */;
-			buildPhases = (
-				8B05760D298FBDB600A56C9A /* Sources */,
-				8B05760E298FBDB600A56C9A /* Frameworks */,
-				8B05760F298FBDB600A56C9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XCAChatGPTTV;
-			productName = XCAChatGPTTV;
-			productReference = 8B057611298FBDB600A56C9A /* XCAChatGPTTV.app */;
+			name = AzureOpenAI;
+			productName = AzureOpenAI;
+			productReference = 166327E029DDC07700E85795 /* AzureOpenAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8B91BFFF298AD09E0079AF26 /* XCAChatGPT */ = {
@@ -346,16 +183,7 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					8B057581298E52C000A56C9A = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					8B0575EA298FA9D800A56C9A = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					8B0575EF298FA9D800A56C9A = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					8B057610298FBDB600A56C9A = {
+					166327DF29DDC07700E85795 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 					8B91BFFF298AD09E0079AF26 = {
@@ -377,46 +205,18 @@
 			projectRoot = "";
 			targets = (
 				8B91BFFF298AD09E0079AF26 /* XCAChatGPT */,
-				8B057581298E52C000A56C9A /* XCAChatGPTMac */,
-				8B0575EA298FA9D800A56C9A /* XCAChatGPTWatch */,
-				8B0575EF298FA9D800A56C9A /* XCAChatGPTWatch Watch App */,
-				8B057610298FBDB600A56C9A /* XCAChatGPTTV */,
+				166327DF29DDC07700E85795 /* AzureOpenAI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B057580298E52C000A56C9A /* Resources */ = {
+		166327DE29DDC07700E85795 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B05758C298E52C000A56C9A /* Preview Assets.xcassets in Resources */,
-				8B057589298E52C000A56C9A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B0575E9298FA9D800A56C9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B0575EE298FA9D800A56C9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B0575FD298FA9DA00A56C9A /* Preview Assets.xcassets in Resources */,
-				8B0575FA298FA9DA00A56C9A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B05760F298FBDB600A56C9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B05761B298FBDB700A56C9A /* Preview Assets.xcassets in Resources */,
-				8B057618298FBDB700A56C9A /* Assets.xcassets in Resources */,
+				166327EA29DDC07800E85795 /* Preview Assets.xcassets in Resources */,
+				166327E729DDC07800E85795 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,49 +232,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B05757E298E52C000A56C9A /* Sources */ = {
+		166327DC29DDC07700E85795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B057597298E52DD00A56C9A /* MessageRow.swift in Sources */,
-				8B057593298E52D900A56C9A /* AzureOpenAIAPI.swift in Sources */,
-				8B82463529B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */,
-				8B057594298E52D900A56C9A /* ContentView.swift in Sources */,
-				8B057592298E52D900A56C9A /* DotLoadingView.swift in Sources */,
-				8B057595298E52D900A56C9A /* MessageRowView.swift in Sources */,
-				8B057585298E52C000A56C9A /* XCAChatGPTMacApp.swift in Sources */,
-				8B057596298E52DD00A56C9A /* ViewModel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B0575EC298FA9D800A56C9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B057608298FA9E900A56C9A /* DotLoadingView.swift in Sources */,
-				8B057606298FA9E900A56C9A /* MessageRowView.swift in Sources */,
-				8B82463629B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */,
-				8B057609298FA9E900A56C9A /* MessageRow.swift in Sources */,
-				8B057605298FA9E900A56C9A /* ContentView.swift in Sources */,
-				8B05760A298FA9E900A56C9A /* AzureOpenAIAPI.swift in Sources */,
-				8B057607298FA9E900A56C9A /* ViewModel.swift in Sources */,
-				8B0575F6298FA9D800A56C9A /* XCAChatGPTWatchApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B05760D298FBDB600A56C9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B057621298FBE0400A56C9A /* MessageRow.swift in Sources */,
-				8B057622298FBE0400A56C9A /* MessageRowView.swift in Sources */,
-				8B82463729B1F49F0069B8F7 /* ChatGPTAPIModels.swift in Sources */,
-				8B05761F298FBE0400A56C9A /* AzureOpenAIAPI.swift in Sources */,
-				8B057623298FBE0400A56C9A /* DotLoadingView.swift in Sources */,
-				8B057614298FBDB600A56C9A /* XCAChatGPTTVApp.swift in Sources */,
-				8B05764829909A9200A56C9A /* ScrollView.swift in Sources */,
-				8B057620298FBE0400A56C9A /* ContentView.swift in Sources */,
-				8B057624298FBE0400A56C9A /* ViewModel.swift in Sources */,
+				166327F529DDC09700E85795 /* MessageRow.swift in Sources */,
+				166327E329DDC07700E85795 /* AzureOpenAIApp.swift in Sources */,
+				166327EF29DDC09700E85795 /* DotLoadingView.swift in Sources */,
+				166327F129DDC09700E85795 /* ChatGPTAPIModels.swift in Sources */,
+				166327F329DDC09700E85795 /* MessageRowView.swift in Sources */,
+				166327F029DDC09700E85795 /* ContentView.swift in Sources */,
+				166327F229DDC09700E85795 /* AzureOpenAIAPI.swift in Sources */,
+				166327F429DDC09700E85795 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,27 +264,17 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8B0575F3298FA9D800A56C9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B0575EF298FA9D800A56C9A /* XCAChatGPTWatch Watch App */;
-			targetProxy = 8B0575F2298FA9D800A56C9A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		8B05758E298E52C000A56C9A /* Debug */ = {
+		166327ED29DDC07800E85795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XCAChatGPTMac/XCAChatGPTMac.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AzureOpenAI/AzureOpenAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XCAChatGPTMac/Preview Content\"";
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AzureOpenAI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -525,7 +284,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.AzureOpenAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -533,18 +292,16 @@
 			};
 			name = Debug;
 		};
-		8B05758F298E52C000A56C9A /* Release */ = {
+		166327EE29DDC07800E85795 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XCAChatGPTMac/XCAChatGPTMac.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AzureOpenAI/AzureOpenAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XCAChatGPTMac/Preview Content\"";
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AzureOpenAI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -554,157 +311,11 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.AzureOpenAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		8B0575FE298FA9DA00A56C9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				INFOPLIST_KEY_CFBundleDisplayName = XCAChatGPTWatch;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		8B0575FF298FA9DA00A56C9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				INFOPLIST_KEY_CFBundleDisplayName = XCAChatGPTWatch;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		8B057601298FA9DA00A56C9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XCAChatGPTWatch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = XCAChatGPTWatch;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		8B057602298FA9DA00A56C9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XCAChatGPTWatch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = XCAChatGPTWatch;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
-		8B05761D298FBDB700A56C9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XCAChatGPTTV/Preview Content\"";
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.1;
-			};
-			name = Debug;
-		};
-		8B05761E298FBDB700A56C9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XCAChatGPTTV/Preview Content\"";
-				DEVELOPMENT_TEAM = PT67MP6H24;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacobjiangwei.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.1;
 			};
 			name = Release;
 		};
@@ -889,38 +500,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B057590298E52C000A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTMac" */ = {
+		166327EC29DDC07800E85795 /* Build configuration list for PBXNativeTarget "AzureOpenAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B05758E298E52C000A56C9A /* Debug */,
-				8B05758F298E52C000A56C9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B057603298FA9DA00A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTWatch Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B057601298FA9DA00A56C9A /* Debug */,
-				8B057602298FA9DA00A56C9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B057604298FA9DA00A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B0575FE298FA9DA00A56C9A /* Debug */,
-				8B0575FF298FA9DA00A56C9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B05761C298FBDB700A56C9A /* Build configuration list for PBXNativeTarget "XCAChatGPTTV" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B05761D298FBDB700A56C9A /* Debug */,
-				8B05761E298FBDB700A56C9A /* Release */,
+				166327ED29DDC07800E85795 /* Debug */,
+				166327EE29DDC07800E85795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -20,14 +20,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2 - 2d08f209e386df92"
+                  uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2 - 2b0d440b7de77ddb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for XCAChatGPT.AzureOpenAIAPI.sendMessage(Swift.String) async throws -&gt; Swift.String"
-                  moduleName = "XCAChatGPT"
+                  symbolName = "(3) suspend resume partial function for AzureOpenAI.AzureOpenAIAPI.sendMessage(Swift.String) async throws -&gt; Swift.String"
+                  moduleName = "AzureOpenAI"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jacob/work/AzureOpenAIChatGPT/ChatGPTSwiftUI/Shared/AzureOpenAIAPI.swift"
+                  urlString = "file:///Users/jacob/work/NewGpt/AzureOpenAIChatGPT/ChatGPTSwiftUI/Shared/AzureOpenAIAPI.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "134"
@@ -35,14 +35,14 @@
                   offsetFromSymbolStart = "2616">
                </Location>
                <Location
-                  uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2 - 2d08f209e386df92"
+                  uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2 - 2b0d440b7de77ddb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for XCAChatGPT.AzureOpenAIAPI.sendMessage(Swift.String) async throws -&gt; Swift.String"
-                  moduleName = "XCAChatGPT"
+                  symbolName = "(3) suspend resume partial function for AzureOpenAI.AzureOpenAIAPI.sendMessage(Swift.String) async throws -&gt; Swift.String"
+                  moduleName = "AzureOpenAI"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jacob/work/AzureOpenAIChatGPT/ChatGPTSwiftUI/Shared/AzureOpenAIAPI.swift"
+                  urlString = "file:///Users/jacob/work/NewGpt/AzureOpenAIChatGPT/ChatGPTSwiftUI/Shared/AzureOpenAIAPI.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "134"
