@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96BB12C9-CBCD-404D-A791-9F52B199F30C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/AzureOpenAIAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "sendMessage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2 - 2d08f209e386df92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for XCAChatGPT.AzureOpenAIAPI.sendMessage(Swift.String) async throws -&gt; Swift.String"
+                  moduleName = "XCAChatGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacob/work/AzureOpenAIChatGPT/ChatGPTSwiftUI/Shared/AzureOpenAIAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "2616">
+               </Location>
+               <Location
+                  uuid = "1E2E2943-8359-4A6A-B280-4A5BB51738E2 - 2d08f209e386df92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for XCAChatGPT.AzureOpenAIAPI.sendMessage(Swift.String) async throws -&gt; Swift.String"
+                  moduleName = "XCAChatGPT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacob/work/AzureOpenAIChatGPT/ChatGPTSwiftUI/Shared/AzureOpenAIAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "3336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
