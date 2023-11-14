@@ -18,7 +18,7 @@ class AzureOpenAIAPI: @unchecked Sendable {
     private var historyList = [Message]()
     private let urlSession = URLSession.shared
     private var urlRequest: URLRequest {
-        let url = URL(string: REPLACE_WITH_AZURE_DEPLOYMENT_URL)!
+        let url = URL(string: "https://jacobopenai3.openai.azure.com/openai/deployments/JacobGPT4/chat/completions?api-version=2023-07-01-preview")!
 
 
         var urlRequest = URLRequest(url: url)

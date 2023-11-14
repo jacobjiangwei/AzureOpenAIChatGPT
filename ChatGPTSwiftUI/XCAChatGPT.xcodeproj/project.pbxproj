@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163BC7CA2B01E37C007B52DD /* LibWhisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BC7C92B01E37C007B52DD /* LibWhisper.swift */; };
 		166327E329DDC07700E85795 /* AzureOpenAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166327E229DDC07700E85795 /* AzureOpenAIApp.swift */; };
 		166327E729DDC07800E85795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166327E629DDC07800E85795 /* Assets.xcassets */; };
 		166327EA29DDC07800E85795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166327E929DDC07800E85795 /* Preview Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163BC7C92B01E37C007B52DD /* LibWhisper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibWhisper.swift; sourceTree = "<group>"; };
 		166327E029DDC07700E85795 /* AzureOpenAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureOpenAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		166327E229DDC07700E85795 /* AzureOpenAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureOpenAIApp.swift; sourceTree = "<group>"; };
 		166327E629DDC07800E85795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		8B91BFF7298AD09E0079AF26 = {
 			isa = PBXGroup;
 			children = (
+				163BC7C92B01E37C007B52DD /* LibWhisper.swift */,
 				8B057591298E52CB00A56C9A /* Shared */,
 				8B91C002298AD09E0079AF26 /* XCAChatGPT */,
 				166327E129DDC07700E85795 /* AzureOpenAI */,
@@ -243,6 +246,7 @@
 				166327F329DDC09700E85795 /* MessageRowView.swift in Sources */,
 				166327F029DDC09700E85795 /* ContentView.swift in Sources */,
 				166327F229DDC09700E85795 /* AzureOpenAIAPI.swift in Sources */,
+				163BC7CA2B01E37C007B52DD /* LibWhisper.swift in Sources */,
 				166327F429DDC09700E85795 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
