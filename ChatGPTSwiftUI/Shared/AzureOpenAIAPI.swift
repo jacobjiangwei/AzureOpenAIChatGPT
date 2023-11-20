@@ -14,13 +14,12 @@ class AzureOpenAIAPI: @unchecked Sendable {
     private let max_tokens  = 1500
     private let presence_penalty = 0
     
-    private let apiKey: String
+    var apiKey: String = ""
     private var historyList = [Message]()
     private let urlSession = URLSession.shared
+    var modelDeploymentURL = ""
     private var urlRequest: URLRequest {
-        let url = URL(string: "https://jacobopenai3.openai.azure.com/openai/deployments/JacobGPT4/chat/completions?api-version=2023-07-01-preview")!
-
-
+        let url = URL(string: modelDeploymentURL)!
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "POST"
         headers.forEach {  urlRequest.setValue($1, forHTTPHeaderField: $0) }

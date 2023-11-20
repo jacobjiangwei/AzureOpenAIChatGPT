@@ -14,15 +14,32 @@ class ViewModel: ObservableObject {
     @Published var isInteractingWithChatGPT = false
     @Published var messages: [MessageRow] = []
     @Published var inputMessage: String = ""
-    
+    @Published var modelDeploymentURL: String = "" {
+        didSet {
+            api.modelDeploymentURL = modelDeploymentURL
+            UserDefaults.standard.setValue(modelDeploymentURL, forKey: "ModelDeploymentURL")
+        }
+    }
+    @Published var azureopenaiKey: String = "" {
+        didSet {
+            api.apiKey = azureopenaiKey
+            UserDefaults.standard.setValue(azureopenaiKey, forKey: "azureopenaiKey")
+        }
+    }
+
+
     private var synthesizer: AVSpeechSynthesizer?
     
     private let api: AzureOpenAIAPI
     
-    init(api: AzureOpenAIAPI, enableSpeech: Bool = false) {
+    init(api: AzureOpenAIAPI, enableSpeech: Bool = true) {
         self.api = api
-        if enableSpeech {
-            synthesizer = .init()
+        synthesizer = .init()
+        if let modelDeploymentURL = UserDefaults.standard.string(forKey: "ModelDeploymentURL") {
+            self.modelDeploymentURL = modelDeploymentURL
+        }
+        if let azureopenaiKey = UserDefaults.standard.string(forKey: "azureopenaiKey") {
+            self.azureopenaiKey = azureopenaiKey
         }
     }
     
@@ -91,11 +108,14 @@ class ViewModel: ObservableObject {
         }
         stopSpeaking()
         let utterance = AVSpeechUtterance(string: responseText)
-        utterance.voice = .init(language: "en-US")
-        utterance.rate = 0.5
-        utterance.pitchMultiplier = 0.8
-        utterance.postUtteranceDelay = 0.2
-        synthesizer.speak(utterance )
+        if let language = NSLinguisticTagger.dominantLanguage(for: responseText) {
+            utterance.voice = .init(language: language)
+            
+            utterance.rate = 0.5
+            utterance.pitchMultiplier = 0.8
+            utterance.postUtteranceDelay = 0.2
+            synthesizer.speak(utterance )
+        }
     }
     
     func stopSpeaking() {

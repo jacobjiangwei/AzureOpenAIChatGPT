@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct AzureOpenAIApp: App {
-    @StateObject var vm = ViewModel(api: AzureOpenAIAPI(apiKey: "9538c0a094da40cfb74039bea1557d60"))
+    @StateObject var vm = ViewModel(api: AzureOpenAIAPI(apiKey: ""))
 
     var body: some Scene {
         WindowGroup {
