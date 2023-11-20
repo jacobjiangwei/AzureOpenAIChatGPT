@@ -16,7 +16,7 @@
 
 这是一个专为macOS用户设计的App，只需输入Azure OpenAI的key和deployment URL，您就可以在家中享受类似于OpenAI的ChatGPT Plus的体验！
 
-我们实现了whisper v3的大模型，macOS可以迅速运行，并且利用了苹果自带的speech framework的text to speech功能。
+我们实现了whisper v3的大模型，你可以直接语音输入提问，macOS可以高效本地语音识别，并且利用了苹果自带的speech framework的text to speech功能。
 
 
 
@@ -36,4 +36,4 @@ This is a native macOS App for interacting with ChatGPT, built using SwiftUI and
 
 This is a macOS exclusive app. By inputting Azure OpenAI's key and deployment URL, you can enjoy an experience similar to OpenAI's ChatGPT Plus at home!
 
-We have implemented the large model of whisper v3. macOS can run it quickly, and it utilizes Apple's built-in speech framework's text to speech feature.
+We have implemented the large model of whisper v3, macOS can supports voice recongition quickly, and it utilizes Apple's built-in speech framework's text to speech feature.
